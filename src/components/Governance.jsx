@@ -6,7 +6,7 @@ export default function Governance() {
       <div className="pt-10 pb-20 mt-10 mb-20 h-auto">
         <div className="flex flex-col w-full">
           <div className="flex flex-row justify-center mt-5 mb-5">
-            <h1 className=" text-4xl font- text-white mt-5" style={{fontFamily: "Inter, Arial",
+            <h1 className=" text-4xl font- text-white m-5 p-5" style={{fontFamily: "Inter, Arial",
                 fontWeight: "500",
                 letterSpacing: "0.2rem",
                 fontSize: "2rem",}}>

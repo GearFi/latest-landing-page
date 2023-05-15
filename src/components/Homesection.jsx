@@ -7,7 +7,7 @@ export default function () {
 
       <section>
        
-        <div className="grid px-4 pt-10 pb-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 mb-5 ml-20 grid-flow-col">
+        <div className="grid px-4 pt-10 pb-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 mb-5 md:ml-5 grid-flow-col">
          
           <div
             className="xl:pt-10 xl:pb-10 pt-5 pb-10  lg:col-span-12"
@@ -53,7 +53,7 @@ export default function () {
             </div>
           </div>
           <div>
-          <img src="/assets/img/nft-trade.png" />
+          <img class ="hidden md:flex md: w-98" src="/assets/img/nft-trade.png" />
           </div>
         </div>
       </section>
