@@ -8,7 +8,7 @@ export default function Infosection() {
           <div className="flex md:flex-row flex-col w-full">
             <div className="md:w-1/2 w-full md:h-ful h-full flex flex-row justify-center items-center">
               <img
-                src="https://www.gearfi.in/assets/img/logo.png"
+                src="logo.png"
                 className="h-auto w-full"
                 style={{filter: "drop-shadow(20px 20px 10px black)"}}
                 alt=""
