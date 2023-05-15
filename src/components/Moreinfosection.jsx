@@ -52,7 +52,7 @@ export default function Moreinfosection() {
           </div>
           <div className="md:w-1/2 w-full md:h-auto flex justify-center">
             <img
-              src="/assets/img/trading.jpg"
+              src="/assets/img/trading.png"
               className="w-100 border-2 border-black"
               alt=""
             />
