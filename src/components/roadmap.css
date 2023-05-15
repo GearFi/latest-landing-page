@@ -1,0 +1,156 @@
+:root {
+    --primaryblue: #0071e3;
+    --darkblue: #040023;
+    --yaleblue: #005b92;
+    --lightblue: #4ad8fe;
+    --steelblue: #358bc6;
+    --orange: #fca51a;
+    --violet: #a509b2;
+    --slateblue: #e0eaf4;
+    --turquoise: #1fefcb;
+    --pink: #ff0175;
+    --white: #fff;
+    --black: #000;
+    --bblue: #00c4ff;
+    --bpink: #ff42a3;
+}
+.gtext {
+    font-style: bold;
+    font-weight: 800;
+    color: white;
+}
+.roadmap {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.roadmap .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    width: 95%;
+    text-align: center;
+    margin-top: 15%;
+}
+.roadmap .content span {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+    .roadmap .content span {
+        font-size: 2rem;
+   }
+}
+@media screen and (max-width: 425px) {
+    .roadmap .content span {
+        font-size: 1.5rem;
+   }
+}
+.roadmap h2 {
+    font-size: 52px;
+    color: white;
+    margin-bottom: 5%;
+    margin-top: 0%;
+}
+.roadmap .initiativescontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 5%;
+}
+@media screen and (max-width: 1110px) {
+    .roadmap .initiativescontainer .initiativediv:nth-child(odd) {
+        margin-top: 0;
+   }
+}
+.roadmap .initiativediv {
+    width: 25%;
+    min-width: 250px;
+    padding: 0 30px;
+}
+.roadmap .initiativediv:nth-child(odd) {
+    margin-top: 90px;
+}
+.roadmap .iniiconbox {
+   /* background:var(--turquoise);
+    */
+   /* aspect-ratio: 1/1;
+    height: 230px;
+    */
+    width: 60%;
+}
+.roadmap .iniinfo {
+    margin-top: -110px;
+}
+.roadmap .iniinfo p {
+    font-size: 0.92em;
+    font-family: Helvetica, "sans-serif";
+    color: rgb(152, 152, 152);
+}
+.roadmap .iniinfo h4 {
+    padding-bottom: 20px;
+    border-bottom: 3px solid currentColor;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.roadmap .turquoise h4, .roadmap .turquoise .tab-wrap, .roadmap .turquoise .shadowdiv {
+    color: var(--turquoise) !important;
+}
+.roadmap .orange h4, .roadmap .orange .tab-wrap, .roadmap .orange .shadowdiv {
+    color: var(--orange) !important;
+}
+.roadmap .pink h4, .roadmap .pink .tab-wrap, .roadmap .pink .shadowdiv {
+    color: var(--pink) !important;
+}
+.roadmap .violet h4, .roadmap .violet .tab-wrap, .roadmap .violet .shadowdiv {
+    color: var(--violet) !important;
+}
+.roadmap .yaleblue h4, .roadmap .yaleblue .tab-wrap, .roadmap .yaleblue .shadowdiv {
+    color: var(--yaleblue) !important;
+}
+.roadmap .primaryblue h4, .roadmap .primaryblue .tab-wrap, .roadmap .primaryblue .shadowdiv {
+    color: var(--primaryblue) !important;
+}
+.roadmap .lightblue h4, .roadmap .lightblue .tab-wrap, .roadmap .lightblue .shadowdiv {
+    color: var(--lightblue) !important;
+}
+.roadmap .steelblue h4, .roadmap .steelblue .tab-wrap, .roadmap .steelblue .shadowdiv {
+    color: var(--steelblue) !important;
+}
+.roadmap .tab-wrap {
+    position: relative;
+    background: var(--slateblue);
+    width: 60%;
+    aspect-ratio: 1;
+    margin: 0 auto 0;
+    padding: 0 30px;
+    border-radius: 30px;
+    font-size: 4.5em;
+    text-align: center;
+    transition: transform 0.75s ease, box-shadow 0.75s ease;
+    border-bottom: 10px solid currentColor;
+    border-left: 4px solid currentColor;
+    color: var(--turquoise);
+    transform: rotate3d(3, 1, -2.5, 60deg);
+    box-shadow: -2px 2px 0 -1px currentColor, -4px 4px 0 -2px currentColor, -6px 6px 0 -3px currentColor, -8px 8px 0 -4px currentColor;
+    transition: top 1s ease;
+}
+.roadmap .initiativediv:hover img {
+    top: 20px;
+}
+.roadmap .shadowdiv {
+    aspect-ratio: 1;
+    width: 100%;
+    transform: rotate3d(3, 1, -2.5, 60deg);
+    position: relative;
+    top: -90px;
+    z-index: -1;
+    opacity: 0.6;
+    background-image: radial-gradient(currentColor, transparent 70%);
+}
