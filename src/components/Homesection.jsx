@@ -7,8 +7,8 @@ export default function () {
 
       <section>
        
-        <div className="grid px-4 pt-10 pb-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 mb-5 md:ml-5 grid-flow-col">
-         
+        <div className="px-4 pt-10 pb-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 mb-5 md:ml-5 ">
+         <div className="grid grid-flow-col">
           <div
             className="xl:pt-10 xl:pb-10 pt-5 pb-10  lg:col-span-12"
             style={{
@@ -20,7 +20,7 @@ export default function () {
             }}
           >
             <h
-              className="max-w-2xl mb-4 text-4xl  leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white"
+              className="max-w-2xl mb-4 text-4xl leading-none tracking-tight md:text-5xl xl:text-6xl text-white"
               style={{
                 fontFamily: "Inter, Arial",
                 fontWeight: "500",
@@ -51,10 +51,13 @@ export default function () {
                 Docs
               </a>
             </div>
+           
           </div>
           <div>
-          <img class ="hidden md:flex md: w-98" src="/assets/img/nft-trade.png" />
+          <img class ="hidden md:flex md:w-full" src="/assets/img/nft-trade.png" />
           </div>
+          </div>
+          
         </div>
       </section>
     </>

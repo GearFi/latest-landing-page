@@ -11,7 +11,7 @@ import {
 export default function Joincommunity() {
   return (
     <div className="w-full text-gray-200 bg-black">
-      <div className=" md:m-10 m-5 p-10">
+      <div className=" md:m-10 m-5 mb-0 p-10">
         <div className="text-center">
           <h1 className=" text-2xl font-bold">Join the community</h1>
 
