@@ -4,7 +4,7 @@ export default function Infosection() {
   return (
     <>
       <section className=" w-full mb-20 " >
-        <div className="m-10 rounded-2xl flex md:flex-row flex-col justify-evenly bg-gradient-to-r from-gray-800 to-green-200" style={{height : "300px"}}>
+        <div className="m-10 rounded-2xl flex  md:flex-row flex-col justify-evenly  bg-gradient-to-r from-gray-600 to-green-200" style={{height : "300px"}}>
           <div className="flex md:flex-row flex-col  w-full">
             <div className="md:w-1/2 w-full md:h-ful h-full flex flex-row justify-center items-center">
               <img

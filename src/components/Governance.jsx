@@ -14,7 +14,7 @@ export default function Governance() {
             </h1>
           </div>
           <div className="flex flex-row flex-wrap justify-center mt-5 mb-5">
-            <div class="w-80 p-6 h-80 rounded-xl shadow-2xl  m-4  bg-gradient-to-r from-gray-800 to-green-200">
+            <div class="w-80 p-6 h-80 rounded-xl shadow-2xl  m-4  bg-gradient-to-r from-gray-600 to-green-200">
               <a href="#">
                 <h5 class="text-3xl mb-4 pt-4 font-bold tracking-tight text-gray-900 ">
                   Buy Now Pay Later
@@ -36,7 +36,7 @@ export default function Governance() {
               </p>
             </div>
 
-            <div class="w-80 p-6 h-80 rounded-2xl shadow-xl  m-4 bg-gradient-to-r from-green-200 to-gray-800 ">
+            <div class="w-80 p-6 h-80 rounded-2xl shadow-xl  m-4 bg-gradient-to-r from-green-200 to-gray-600 ">
               <a href="#">
                 <h5 class="text-3xl mb-4 pt-4 font-bold tracking-tight text-gray-900 ">
                   Staking

@@ -21,8 +21,8 @@ function App() {
     <Infosection/>
     <Governance/>
     <Moreinfosection/>
-    <Joincommunity/>
     <Roadmap/>
+    <Joincommunity/>
     {/* <Footer/> */}
 
     </div>
