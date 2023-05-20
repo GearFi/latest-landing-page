@@ -10,13 +10,14 @@ export default function () {
         <div className="px-4 pt-10 pb-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 mb-5 md:ml-5 ">
          <div className="grid grid-flow-col">
           <div
-            className="xl:pt-10 xl:pb-10 pt-5 pb-10  lg:col-span-12"
+            className="xl:pt-10 xl:pb-10 pt-5 pb-10 lg:col-span-12"
             style={{
               fontFamily: "Inter, Arial",
               fontWeight: "500",
               letterSpacing: "0.25rem",
               lineHeight: "2.46875rem",
               fontSize: "1.125rem",
+              width: "90%"
             }}
           >
             <h
@@ -54,7 +55,7 @@ export default function () {
            
           </div>
           <div>
-          <img class ="hidden md:flex md:w-full" src="/assets/img/nft-trade.png" />
+          <img class ="hidden md:flex md:w-full " src="/assets/img/nft-trade.png" />
           </div>
           </div>
           
