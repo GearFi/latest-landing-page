@@ -27,9 +27,11 @@ export default function Moreinfosection() {
               <h1 className=" text-4xl font-bold mb-8" style={{}}>
                 Buy More
               </h1>
-              <div className="text-2xl">
-                <p>Pay 3 ETH down payment to reserve a 15 ETH Azuki</p><br/><br/> 
-                <p>Pay rest of the amount later and claim your NFT</p>
+              <div className="text-xl">
+                <p>Using our BNPL features, users can buy NFTs with a down payment.</p><br/>
+                <p>Lets take an EXAMPLE of Azuki to understand:</p><br/>
+                <p>On GearFi App you can buy 15 ETH Azuki from any marketplace by paying just a 3 ETH down payment.</p><br/> 
+                <p>You can pay rest of the amount later and claim your NFT</p>
               </div>
             </div>
             
@@ -40,11 +42,11 @@ export default function Moreinfosection() {
           <div className="md:w-1/2 w-full flex flex-col md:m-3 mt-2">
             <div className="h-3/4 p-3 text-start mt-5">
               <h1 className=" text-4xl font-bold mb-8">Earn More</h1>
-              <div className="text-2xl">
+              <div className="text-xl">
               <p>Did your Azuki's price just shoot up?</p><br/>
 
-                <p>Sell your reserved Azuki for 17 ETH</p> <br/> 
-                <p> Use sale amount to repay current BNPL Loan and make a profit of 2 ETH on your 3 ETH down payment</p>
+                <p>Using our Margin Trading feature, Sell your reserved Azuki for 17 ETH</p> <br/> 
+                <p>Your Sale amount will automatically be used to repay your current BNPL Loan position and you can make a profit of 2 ETH on your 3 ETH down payment</p>
                 
                 
               </div>

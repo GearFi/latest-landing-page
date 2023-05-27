@@ -7,6 +7,9 @@ import Joincommunity from './components/Joincommunity';
 import Moreinfosection from './components/Moreinfosection';
 import Navbar from './components/Navbar';
 import Roadmap from './components/Roadmap';
+import FAQ from "./components/FAQ/FAQs"
+import BlogSection from './components/Blogsection';
+import Calendly from './components/Calendlysection';
 
 
 
@@ -23,7 +26,10 @@ function App() {
     <Moreinfosection/>
     <Roadmap/>
     <Joincommunity/>
-    {/* <Footer/> */}
+    <Calendly/>
+    <FAQ/>
+    <BlogSection/>
+    <Footer/>
 
     </div>
     </>
