@@ -32,7 +32,7 @@ export default function Navbar() {
                             href="https://app.gearfi.in"
                             className="ml-3 text-gray-400 font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 border-2 border-gray-400 "
                         >
-                            Try Testnet App
+                            Launch App
                         </a>
                     </div>
                 </div>
